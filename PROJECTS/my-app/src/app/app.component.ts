@@ -11,7 +11,7 @@ export class AppComponent {
   
 
   addlanguage(){
-  alert("entered into addlanguage method")
+  
   this.listOflanguage.push(this.language);
   console.log(this.listOflanguage);
   }
